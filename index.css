@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 1200px;
+    background-color: #000;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);
+    display: flex;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.imgBox{
+    width: calc(50% + 60px);
+    height: 100%;
+    background-color:coral;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
+    border-bottom:600px solid transparent;
+}
+
+#list1{
+    list-style-type: none;
+}
+#list1 li{
+    float: left;
+    width: 100px;
+}
+#list1 li a{
+    color: azure;
+    text-decoration: none;
+}
+#list1 li a:hover{
+    color: coral;
+}
+
+#list2{
+    list-style-type: none;
+    float: right;
+}
+#list2 li{
+    float: left;
+    width: 100px;
+}
+#list2 li a{
+    color: azure;
+    text-decoration: none;
+}
+#list2 li a:hover{
+    color: #000;
+}
+
+#img1{
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    top: 30%;
+    right: 25%;
+}
+
+#main h1{
+    color: aliceblue;
+    position: absolute;
+    padding: 40px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: coral;
+    top: 8%;
+}
+#main p{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 3.5%;
+    width: 250px;
+    text-align: justify;
+}
+#listside #img11{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 40%;
+}
+#listside #img11:hover{
+    opacity: 0.5;
+}
+#listside #img12{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 45%;
+}
+#listside #img12:hover{
+    opacity: 0.5;
+}
+#listside #img13{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+}
+#listside #img13:hover{
+    opacity: 0.5;
+}
+footer p{
+    position: absolute;
+    color: aliceblue;
+    left: 3.5%;
+    bottom: 3%;
+}
+footer ul{
+    list-style-type: none;
+    position: absolute;
+    right: 3%;
+    bottom: 2.5%;
+}
+footer ul li{
+    float: left;
+    width: 40px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer img:hover{
+    opacity: 0.5;
+}
+
